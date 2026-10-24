@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.pytest-tmp/
+*.log
+*.py[cod]
+data/raw/*
+data/processed/*
+data/prediction_history.sqlite3
+models/*.joblib
+models/*.json
+!models/.gitkeep
